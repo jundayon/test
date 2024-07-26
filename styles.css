@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    padding: 1em;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 2em;
+}
+
+input[type="text"] {
+    padding: 0.5em;
+    margin-right: 1em;
+}
+
+button {
+    padding: 0.5em 1em;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#timer {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 1em;
+}
+
+#gamification {
+    margin-top: 2em;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>集中力強化プラットフォーム</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>集中力強化プラットフォーム</h1>
+    </header>
+    <main>
+        <section id="goal-setting">
+            <h2>目標設定</h2>
+            <form id="goal-form">
+                <label for="goal">目標:</label>
+                <input type="text" id="goal" name="goal" required>
+                <button type="submit">設定</button>
+            </form>
+        </section>
+        <section id="deep-work-session">
+            <h2>ディープワークセッション</h2>
+            <button id="start-session">セッション開始</button>
+            <div id="timer">25:00</div>
+        </section>
+        <section id="gamification">
+            <h2>ゲーミフィケーション</h2>
+            <p>ポイント: <span id="points">0</span></p>
+            <p>レベル: <span id="level">1</span></p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
